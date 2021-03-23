@@ -1,0 +1,7 @@
+[package]
+org = "grainier"
+name = "ballerina_event_sourcing"
+version = "0.1.0"
+
+[build-options]
+observabilityIncluded = true
