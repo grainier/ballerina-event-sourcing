@@ -1,13 +1,7 @@
-// import ballerina/io;
-
-// public function main() {
-//     io:println("Hello World!");
-// }
-
 import ballerina/io;
 import ballerinax/stan;
 
-listener stan:Listener lis = new();
+listener stan:Listener lis = new;
 
 @stan:ServiceConfig {subject: "demo"}
 service stan:Service on lis {
@@ -21,3 +15,7 @@ service stan:Service on lis {
     }
 }
 
+public function test() {
+    
+    
+}
